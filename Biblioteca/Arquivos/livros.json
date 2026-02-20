@@ -1,0 +1,24 @@
+[
+  {
+    "Id": 2,
+    "Titulo": "Escuridão",
+    "Autor": "David",
+    "Reservado": false,
+    "Categoria": [
+      "DRAMA",
+      "TERROR",
+      "SUSPENSE"
+    ]
+  },
+  {
+    "Id": 3,
+    "Titulo": "Uzumaki",
+    "Autor": "Junji Ito",
+    "Reservado": false,
+    "Categoria": [
+      "DRAMA",
+      "SUSPENSE",
+      "TERROR"
+    ]
+  }
+]

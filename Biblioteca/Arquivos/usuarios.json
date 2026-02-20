@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Gilvan",
+    "Email": "gilvanpedro2006@gmail.com",
+    "Senha": "gilllll",
+    "Tipo": "ADMIN"
+  },
+  {
+    "Id": 2,
+    "Nome": "Marcos",
+    "Email": "carlos@gmail.com",
+    "Senha": "gilllll",
+    "Tipo": "ADMIN"
+  },
+  {
+    "Id": 3,
+    "Nome": "Rogério",
+    "Email": "Rogériomarceneiro@gmail.com",
+    "Senha": "rogerinhopoggers",
+    "Tipo": "NORMAL"
+  }
+]
