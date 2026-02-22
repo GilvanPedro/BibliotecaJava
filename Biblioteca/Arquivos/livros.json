@@ -20,5 +20,17 @@
       "SUSPENSE",
       "TERROR"
     ]
+  },
+  {
+    "Id": 4,
+    "Titulo": "Pedacinhos",
+    "Autor": "Desconhecido",
+    "Reservado": true,
+    "Categoria": [
+      "SUSPENSE",
+      "DRAMA",
+      "ADULTO",
+      "TERROR"
+    ]
   }
 ]

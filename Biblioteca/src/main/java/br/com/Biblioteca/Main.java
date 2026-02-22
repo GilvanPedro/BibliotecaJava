@@ -15,10 +15,10 @@ public class Main {
         UsuarioController usuarioController = new UsuarioController();
 
         livroController.adicionarLivro(
-                "Uzumaki",
-                "Junji Ito",
-                false,
-                Set.of(LivroCategoria.TERROR, LivroCategoria.SUSPENSE, LivroCategoria.DRAMA)
+                "Pedacinhos",
+                "Desconhecido",
+                true,
+                Set.of(LivroCategoria.TERROR, LivroCategoria.SUSPENSE, LivroCategoria.DRAMA, LivroCategoria.ADULTO)
         );
 
         livroController.exibirLivro();
@@ -30,11 +30,10 @@ public class Main {
                 TipoUsuario.ADMIN);
 
         usuarioController.editarUsuario(
-                3,
-                "Rogério",
-                "Rogériomarceneiro@gmail.com",
-                "rogerinhopoggers",
-                TipoUsuario.NORMAL);
+                1,
+                "Gilvan Pedro",
+                "gilvanpedro2006@gmail.com",
+                "gilvanpedro1234");
 
         usuarioController.exibirUsuarios();
     }

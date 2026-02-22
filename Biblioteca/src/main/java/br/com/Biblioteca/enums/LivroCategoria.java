@@ -9,5 +9,6 @@ public enum LivroCategoria {
     ACAO,
     DIDATICO,
     FICCAOCIENTIFICA,
-    BIOGRAFIA
+    BIOGRAFIA,
+    ADULTO
 }

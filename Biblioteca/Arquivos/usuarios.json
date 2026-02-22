@@ -1,23 +1,30 @@
 [
   {
     "Id": 1,
-    "Nome": "Gilvan",
+    "Nome": "Gilvan Pedro",
     "Email": "gilvanpedro2006@gmail.com",
-    "Senha": "gilllll",
+    "Senha": "$2a$10$QuBVThldxiKGx2B7yDOpRev5zAG5wViO6fATGpyPn.5lablsEugEW",
     "Tipo": "ADMIN"
   },
   {
     "Id": 2,
     "Nome": "Marcos",
     "Email": "carlos@gmail.com",
-    "Senha": "gilllll",
-    "Tipo": "ADMIN"
+    "Senha": "$2a$10$7TzeDNoNsp6V4EmV0acxmuPWotw2S5HjobaQo6Jn8K.i9uoKQrbCy",
+    "Tipo": "NORMAL"
   },
   {
     "Id": 3,
     "Nome": "Rogério",
     "Email": "Rogériomarceneiro@gmail.com",
-    "Senha": "rogerinhopoggers",
+    "Senha": "$2a$10$070Eh6jXIk8elIrazuDsveJbhH3X4/2tZTtnpr7nd2bMoiS44RmN2",
     "Tipo": "NORMAL"
+  },
+  {
+    "Id": 4,
+    "Nome": "Rogério",
+    "Email": "Rogériomarceneiro@gmail.com",
+    "Senha": "$2a$10$9PJ2sm3NjGT2RyMjrNL/Uu5qOkgbwLEF7vGKNUvskD89IBjrqzJRO",
+    "Tipo": "ADMIN"
   }
 ]

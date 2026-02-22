@@ -1,5 +1,6 @@
 package br.com.Biblioteca.controller;
 
+import br.com.Biblioteca.criptografia.Senha;
 import br.com.Biblioteca.entity.Usuario;
 import br.com.Biblioteca.enums.TipoUsuario;
 import com.google.gson.FieldNamingPolicy;
@@ -20,6 +21,7 @@ public class UsuarioController {
     private final String ARQUIVO = System.getProperty("user.dir") + "/Arquivos/usuarios.json";
 
     List<Usuario> usuariosLista = new ArrayList<>();
+    Senha criptografar = new Senha();
     Usuario usuario;
     File file;
     FileWriter escrita;
@@ -105,7 +107,7 @@ public class UsuarioController {
             }
         }
 
-        usuario = new Usuario(id, nome, email, senha, tipo);
+        usuario = new Usuario(id, nome, email, criptografar.CriptografarSenha(senha), tipo);
 
         usuariosLista.add(usuario);
         salvarArquivo();
@@ -114,15 +116,14 @@ public class UsuarioController {
     }
 
     // ================= EDITAR =================
-    public String editarUsuario(long id, String nome, String email, String senha, TipoUsuario tipo){
+    public String editarUsuario(long id, String nome, String email, String senha){
         lerArquivo();
 
         for(Usuario u : usuariosLista){
             if(u.getId() == id){
                 u.setNome(nome);
                 u.setEmail(email);
-                u.setSenha(senha);
-                u.setTipo(tipo);
+                u.setSenha(criptografar.CriptografarSenha(senha));
 
                 salvarArquivo();
                 return "Usuário editado com sucesso";
