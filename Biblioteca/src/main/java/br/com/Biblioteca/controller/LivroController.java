@@ -24,7 +24,10 @@ public class LivroController {
     File file;
     FileWriter escrita;
 
-    Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE).setPrettyPrinting().create();
+    Gson gson = new GsonBuilder()
+            .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+            .setPrettyPrinting()
+            .create();
 
     // ================= SALVAR =================
     private void salvarArquivo(){
@@ -163,7 +166,6 @@ public class LivroController {
 
         if (removido) {
             salvarArquivo();
-            System.out.println("Livro removido com sucesso.");
         } else {
             System.out.println("Livro não encontrado.");
         }

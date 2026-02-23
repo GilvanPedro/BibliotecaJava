@@ -33,5 +33,12 @@
     "Email": "gilvanpedro@gmail.com",
     "Senha": "$2a$10$jdnLgTvaPwDNTvIYM3/wHeJyx4ebuO6aR.EnfK.fg2mU8a6YVQqyS",
     "Tipo": "ADMIN"
+  },
+  {
+    "Id": 6,
+    "Nome": "Neymar Júnior",
+    "Email": "neymar@gmail.com",
+    "Senha": "$2a$10$J.9My09ZwzCcFbrUh6rmI.Afyz301eHhmGWV6iiloaQiLUENKJCJ6",
+    "Tipo": "ADMIN"
   }
 ]
