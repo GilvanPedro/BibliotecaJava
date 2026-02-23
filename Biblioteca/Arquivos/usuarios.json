@@ -3,7 +3,7 @@
     "Id": 1,
     "Nome": "Gilvan Pedro",
     "Email": "gilvanpedro2006@gmail.com",
-    "Senha": "$2a$10$QuBVThldxiKGx2B7yDOpRev5zAG5wViO6fATGpyPn.5lablsEugEW",
+    "Senha": "$2a$10$5dOSkxyus27aXKWCYVOuCey1GCNTOf6nVrjRhVW.Tjxh/HsYOnx86",
     "Tipo": "ADMIN"
   },
   {
@@ -25,6 +25,13 @@
     "Nome": "Rogério",
     "Email": "Rogériomarceneiro@gmail.com",
     "Senha": "$2a$10$9PJ2sm3NjGT2RyMjrNL/Uu5qOkgbwLEF7vGKNUvskD89IBjrqzJRO",
+    "Tipo": "ADMIN"
+  },
+  {
+    "Id": 5,
+    "Nome": "Gilvan Pedro",
+    "Email": "gilvanpedro@gmail.com",
+    "Senha": "$2a$10$jdnLgTvaPwDNTvIYM3/wHeJyx4ebuO6aR.EnfK.fg2mU8a6YVQqyS",
     "Tipo": "ADMIN"
   }
 ]

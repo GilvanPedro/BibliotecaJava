@@ -153,6 +153,24 @@ public class UsuarioController {
         return usuariosLista;
     }
 
+    public Usuario buscarPorEmail(String email) {
+        lerArquivo();
+        for (Usuario u : usuariosLista) {
+            if (u.getEmail().equalsIgnoreCase(email)) {
+                return u;
+            }
+        }
+        return null;
+    }
+
+    public Usuario login(String email, String senha) {
+        Usuario u = buscarPorEmail(email);
+        if (u != null && criptografar.VerificarSenha(senha, u.getSenha())) {
+            return u;
+        }
+        return null;
+    }
+
     // ================= REMOVER =================
     public void removerUsuario(long id){
         lerArquivo();
