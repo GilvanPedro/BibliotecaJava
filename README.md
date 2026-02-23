@@ -57,7 +57,7 @@ Cada livro em seu lugar! Nossa estrutura de pacotes é pensada para manter a ord
 *   `service`: Os heróis que realizam as tarefas mais complexas, como o `GoogleBooksService` que fala com o Oráculo Literário.
 *   `view`: As janelas para o nosso mundo, onde você interage com o `LoginView` e a `MainView`.
 
-## 🎬 A Magia Acontece! (Fluxo da Google Books API)
+## A Magia Acontece! (Fluxo da Google Books API)
 
 Quer saber como a BibliotecaJava conversa com a Google Books API para encontrar seu próximo best-seller? É como mágica!
 
